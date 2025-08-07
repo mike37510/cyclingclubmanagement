@@ -96,8 +96,7 @@ AssoVelo/
 │   ├── footer.php             # Pied de page
 │   └── head.php               # Balises HTML head
 ├── 📁 sql/                    # Scripts de base de données
-│   ├── assovelo2.sql          # Structure principale
-│   └── organisation_taches.sql # Tables des tâches
+│   └──  assovelo.sql          # Structure principale
 ├── 📁 uploads/                # Fichiers uploadés
 │   ├── adherents/             # Photos des adhérents
 │   ├── documents/             # Documents partagés
@@ -110,7 +109,6 @@ AssoVelo/
 ├── 📄 organiser.php           # Organisation tâches
 ├── 📄 documents.php           # Bibliothèque documents
 ├── 📄 mailing.php             # Système de mailing
-├── 📄 test_simulator.php      # Simulateur de tests
 └── 📄 README.md               # Documentation
 ```
 
@@ -192,17 +190,6 @@ AssoVelo/
 - **Couleurs** : Thème Bootstrap personnalisable
 - **Images** : Logos et images par défaut remplaçables
 
-## 🧪 Tests
-
-L'application inclut un **simulateur de tests complet** (`test_simulator.php`) permettant :
-
-- **Tests CRUD** : Création, lecture, mise à jour, suppression
-- **Données fictives** : Génération automatique de jeux de test
-- **Simulations avancées** : Inscriptions et affectations aléatoires
-- **Nettoyage** : Suppression des données de test
-
-⚠️ **Attention** : Utilisez le simulateur uniquement en environnement de développement.
-
 ## 👥 Rôles Utilisateur
 
 ### Administrateur (`admin`)
@@ -238,13 +225,7 @@ L'interface est entièrement responsive et s'adapte à tous les appareils :
 
 ## 🤝 Contribution
 
-Les contributions sont les bienvenues ! Pour contribuer :
-
-1. Fork le projet
-2. Créez une branche feature (`git checkout -b feature/AmazingFeature`)
-3. Committez vos changements (`git commit -m 'Add some AmazingFeature'`)
-4. Push vers la branche (`git push origin feature/AmazingFeature`)
-5. Ouvrez une Pull Request
+Les contributions sont les bienvenues !
 
 ## 📄 Licence
 
@@ -259,20 +240,8 @@ Pour toute question ou problème :
 
 ## 🎯 Roadmap
 
-### Version 2.1 (Prochaine)
-- [ ] API REST pour intégrations externes
-- [ ] Notifications push en temps réel
-- [ ] Module de statistiques avancées
-- [ ] Export iCal pour les calendriers
-
-### Version 2.2 (Future)
-- [ ] Application mobile companion
-- [ ] Intégration réseaux sociaux
-- [ ] Système de paiement en ligne
-- [ ] Module de réservation de matériel
-
 ---
 
-**AssoVelo** - *La solution complète pour votre association cycliste* 🚴‍♂️
+**Cycling Club Management** - *La solution complète pour votre association cycliste* 🚴‍♂️
 
 Développé avec ❤️ pour la communauté cycliste
